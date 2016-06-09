@@ -6,5 +6,6 @@
     "**/.DS_Store": true,
     "dist": true,
     "tmp": true
-  }
+  },
+  "typescript.tsdk": "/Users/misko/work/periscope/node_modules/typescript/lib"
 }

@@ -13,12 +13,27 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/core": "github:angular/core-builds",
     "@angular/common": "github:angular/common-builds",
     "@angular/compiler": "github:angular/compiler-builds",
+    "@angular/core": "github:angular/core-builds",
     "@angular/http": "github:angular/http-builds",
     "@angular/platform-browser": "github:angular/platform-browser-builds",
     "@angular/router": "github:angular/router-builds",
+    "@angular2-material/button": "^2.0.0-alpha.5-2",
+    "@angular2-material/card": "^2.0.0-alpha.5-2",
+    "@angular2-material/checkbox": "^2.0.0-alpha.5-2",
+    "@angular2-material/core": "^2.0.0-alpha.5-2",
+    "@angular2-material/grid-list": "^2.0.0-alpha.5-2",
+    "@angular2-material/icon": "^2.0.0-alpha.5-2",
+    "@angular2-material/input": "^2.0.0-alpha.5-2",
+    "@angular2-material/list": "^2.0.0-alpha.5-2",
+    "@angular2-material/progress-bar": "^2.0.0-alpha.5-2",
+    "@angular2-material/progress-circle": "^2.0.0-alpha.5-2",
+    "@angular2-material/radio": "^2.0.0-alpha.5-2",
+    "@angular2-material/sidenav": "^2.0.0-alpha.5-2",
+    "@angular2-material/tabs": "^2.0.0-alpha.5-2",
+    "@angular2-material/toolbar": "^2.0.0-alpha.5-2",
+    "@types/firebase": "^2.4.22-alpha",
     "angularfire2": "^2.0.0-beta.0",
     "es6-shim": "^0.35.0",
     "firebase": "^2.4.2",
@@ -28,6 +43,9 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "@types/es6-collections": "0.0.22-alpha",
+    "@types/es6-promise": "0.0.22-alpha",
+    "@types/jasmine": "^2.2.22-alpha",
     "angular-cli": "^1.0.0-beta.0",
     "clang-format": "^1.0.35",
     "codelyzer": "0.0.14",
@@ -40,7 +58,7 @@
     "protractor": "^3.3.0",
     "ts-node": "^0.5.5",
     "tslint": "^3.6.0",
-    "typescript": "^1.8.10",
+    "typescript": "^1.9.0-dev.20160608-1.0",
     "typings": "^0.8.1"
   }
 }
