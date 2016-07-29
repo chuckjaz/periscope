@@ -3,7 +3,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'firebase': 'vendor/firebase/lib/firebase-web.js',
+  'firebase': 'vendor/firebase/firebase.js',
   'angularfire2': 'vendor/angularfire2',
   '@angular2-material': 'vendor/@angular2-material'
 };
@@ -42,7 +42,7 @@ materialPkgs.forEach((pkg) => {
 const barrels: string[] = [
   // Angular specific barrels.
   '@angular/core', '@angular/common', '@angular/compiler', '@angular/http', '@angular/router',
-  '@angular/platform-browser', '@angular/platform-browser-dynamic',
+  '@angular/forms', '@angular/platform-browser', '@angular/platform-browser-dynamic',
 
   // Thirdparty barrels.
   'rxjs',
